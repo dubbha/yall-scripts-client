@@ -1,0 +1,23 @@
+{
+  "name": "yall-scripts-client",
+  "main": "src/index.js",
+  "scripts": {
+    "lint:src": "eslint ./src",
+    "lint:src:bin": "eslint ./src/bin",
+    "lint:src:lib": "eslint ./src/lib",
+    "lint": "yall --parallel lint:*:*"
+  },
+  "dependencies": {
+    "yall-scripts": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dubbha/yall-scripts-client.git"
+  },
+  "homepage": "https://github.com/dubbha/yall-scripts-client",
+  "author": "Oleksiy Dubovyk",
+  "license": "MIT"
+}
