@@ -914,9 +914,9 @@ write@1.0.3:
     mkdirp "^0.5.1"
 
 yall-scripts@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/yall-scripts/-/yall-scripts-1.0.0.tgz#b09bc4546a3cb1b1f4f4255b73deb9e47a3b0682"
-  integrity sha512-Z20I1wp5O5/VS0MR/as+O6Ex+xZdov/H7VMSUHa6f/QmZok8h8fy/BCcKECQH8Z85UaWcRCfkpxmfdI+mahKgw==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/yall-scripts/-/yall-scripts-1.0.1.tgz#b9a84b6b0d9ab879af74744b5971c9b7b68e7315"
+  integrity sha512-cYIUdmh11bZmKqLsRyRxremhOo7s+/caZW314QSPCpv8Qgdifp8IUIAWSBeBXSF7wsCDSeZJ+MaOPHXUwoS0Yg==
   dependencies:
     cross-spawn "^7.0.2"
     picomatch "^2.2.2"
