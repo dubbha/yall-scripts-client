@@ -913,10 +913,15 @@ write@1.0.3:
   dependencies:
     mkdirp "^0.5.1"
 
-yall-scripts@^1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/yall-scripts/-/yall-scripts-1.0.1.tgz#b9a84b6b0d9ab879af74744b5971c9b7b68e7315"
-  integrity sha512-cYIUdmh11bZmKqLsRyRxremhOo7s+/caZW314QSPCpv8Qgdifp8IUIAWSBeBXSF7wsCDSeZJ+MaOPHXUwoS0Yg==
+yall-scripts@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/yall-scripts/-/yall-scripts-1.1.0.tgz#1fc5dd0e3aeefdea4d974fc01776d72049386955"
+  integrity sha512-RCSSKt+M2gj/XpmBRCuBAYEUt4Y/RU8ECTmtgtVMVk5JuY/UmndE8lhWpR7TyT4zqKYHGrGTTl3xBBCvoYh29w==
   dependencies:
     cross-spawn "^7.0.2"
     picomatch "^2.2.2"
+
+yarn-audit-ci@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/yarn-audit-ci/-/yarn-audit-ci-1.2.0.tgz#bed9baf7d9d661d30e2ffafef685bf7638a9147e"
+  integrity sha512-6FIqZP0rFNIW29VyQmKZ7RleFLbMyH4VlY6MyfKDJUiCgdchj/paf7W5Ue1sTcWy16ex/dTVNadEnfSQAK7uFA==

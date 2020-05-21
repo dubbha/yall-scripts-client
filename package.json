@@ -5,13 +5,15 @@
     "lint:src": "eslint ./src",
     "lint:src:bin": "eslint ./src/bin",
     "lint:src:lib": "eslint ./src/lib",
-    "lint": "yall --parallel lint:*:*"
+    "lint": "yall --parallel lint:*",
+    "audit": "yarn-audit-ci --low",
+    "all": "yall audit lint"
   },
-  "dependencies": {
-    "yall-scripts": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "eslint": "^6.8.0",
+    "yall-scripts": "^1.1.0",
+    "yarn-audit-ci": "^1.2.0"
   },
   "repository": {
     "type": "git",
